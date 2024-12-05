@@ -61,7 +61,7 @@ extension Solution {
         for (part, result) in results.enumerated() {
             guard result != nil else { continue }
 
-            print("[\(typeName) - part \(part)] \(result!)")
+            print("[\(typeName) - part \(part + 1)] \(result!)")
         }
     }
 }
