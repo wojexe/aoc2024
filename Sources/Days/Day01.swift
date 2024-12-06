@@ -2,7 +2,7 @@ import ArgumentParser
 
 final class Day01: Solution {
     @Flag() var parts: [Part] = []
-    @Flag() var example: Bool = false
+    @Flag(name: .shortAndLong) var example: Bool = false
 
     static let configuration = CommandConfiguration(
         commandName: "day01",
